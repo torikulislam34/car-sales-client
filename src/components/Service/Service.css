@@ -1,0 +1,18 @@
+.card img{
+    
+    height: 200px;
+}
+.button-reguler{
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgb(50, 8, 235);
+    color: rgb(247, 244, 243);
+    font-weight: bold;
+    border: none;
+    margin-bottom: 10px;
+}
+.button-reguler:hover{
+    background-color: rgb(247, 26, 44);
+    color: white;
+}

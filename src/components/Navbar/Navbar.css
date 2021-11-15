@@ -1,0 +1,20 @@
+nav a{
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: bold;
+    color: azure;
+}
+.text-head{
+    color: aliceblue;
+    font-weight: bold;
+    margin: 10px;
+}
+.text-head:hover{
+color: rgb(155, 3, 3);
+}
+.logo-img{
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+    margin-right: 5px;
+}

@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+### CAR-SALES-SITE.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Live Link: https://car-sales-site.web.app
 
-## Available Scripts
+***How Much Should I Pay for the All Car?
+Use the chart below to see how much shoppers are paying for each 2022 Chevrolet Corvette trim on average. This will help you determine how much to pay on a lease, loan, or cash basis. Get upfront price offers from Certified Dealers in your area by selecting a trim and following the steps to build your car.
 
-In the project directory, you can run:
+*** Yes, there's a good bit of theater here, and we like it. More importantly, all these interior bits are crafted to look and function in a far more upscale way than any Corvette of the past. The only odd bit to this interior is the look of that sweeping line of buttons separating the driver from passenger. It's a little strange but functions well. The Vette has plenty of space for two people to find comfort. The nearly 13-cubic-foot trunk is about what you'd find in a compact sedan — plenty of space for two people to pack heavy. The Porsche 911 provides slightly more room for people and stuff due to its small backseat.
 
-### `yarn start`
+***Infotainment and Connectivity
+Every Corvette comes standard with Chevrolet's 8-inch infotainment touchscreen. It's equipped with Bluetooth audio streaming and voice recognition and serves up cloud-connected personalization for vehicle and app settings. Wireless Apple CarPlay and Android Auto are standard, too. The system works well but seems a bit dated when other automakers are offering larger touchscreens. However, this type of tech tends to lag in the high-end sports-car world. And compared to other sports cars, the Corvette's system is actually quite intuitive.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+***Safety
+The Chevrolet Corvette hasn't been tested by the National Highway Traffic Safety Administration (NHTSA) or the Insurance Institute for Highway Safety (IIHS).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+***We serve better cars. the World Competition
+The Corvette is one of the best deals in the sports-car world. It's a sophisticated supercar beater with a reasonable price point for its high level of performance. The Corvette is incredibly quick and handles with amazing agility. Yet it rides smoothly and has plenty of room for occupants and gear. And it looks like nothing else in the price class — in a good way.# niche-website-client-side-torikulislam34

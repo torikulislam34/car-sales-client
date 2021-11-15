@@ -1,0 +1,12 @@
+.carousel img{
+    height: 100vh;
+}
+.my-btn{
+    width: 130px;
+    height: 40px;
+    border-style: none;
+    background-color: hsl(14, 100%, 50%);
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+}

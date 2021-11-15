@@ -1,0 +1,45 @@
+.footer-menu {
+  list-style: none;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+.menu{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.menu:hover {
+  color: red;
+}
+.footer-input {
+  padding: 8px;
+  border: none;
+  outline: none;
+  background-color:wheat;
+}
+.footer-container {
+  background-color: #4d4dfc;
+  padding: 20px;
+  color: rgb(216, 209, 209);
+}
+.gallery-img{
+  width: 100px;
+  height: 80px;
+  margin: 2px;
+  border-radius: 5px;
+}
+.footer-gal{
+  margin-right: 100px;
+}
+.footer-n{
+    margin-top: 15px;
+}
+.footer-btn{
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 15px;
+}

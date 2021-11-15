@@ -1,0 +1,7 @@
+.special-img{
+  width: 400px;
+  height: 300px;
+  border: 2px solid greenyellow;
+  margin: 5px;
+  border-radius: 10px;
+}
