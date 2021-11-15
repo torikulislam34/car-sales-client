@@ -18,9 +18,9 @@ const ManageOrder = () => {
             </div>
             <div className="offcanvas-body">
             <nav className="nav flex-column">
-            <NavLink to='/myBooking'>My Booking</NavLink>
-            <NavLink to = '/manageBooking'>Manage All Booking</NavLink>
-            <NavLink to ='/addPlace'>Add New Place</NavLink>
+            <NavLink className='text-black' to='/myOrder'>My Booking</NavLink>
+            <NavLink className='text-black' to = '/manageBooking'>Manage All Booking</NavLink>
+            <NavLink className='text-black' to ='/addPlace'>Add New Place</NavLink>
             </nav>
             </div>
             </div>
