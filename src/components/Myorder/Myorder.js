@@ -13,11 +13,21 @@ const Myorder = () => {
    .then(data => setOrders(data))
   }, [])
   const handleDeleteProduct = id => {
-   const url = `http://localhost:5000/addBook?email/${id}`;
-   fetch(url, {
-     method: 'DELETE'
-   })
-   .then()
+  const proceed = window.confirm('Are you sure , you want to deleted?');
+  if(proceed){
+    const url = `https://damp-everglades-31322.herokuapp.com/addBook/${id}`;
+    fetch(url, {
+      method: 'DELETE'
+    })
+    .then(res => res.json())
+    .then(data => {
+      if (data.deletedCount){
+        alert('Deleted successfully');
+        const remainingOrders = orders.filter(order=> order._id !== id);
+        setOrders(remainingOrders);
+      }
+    })
+  }
   }
     return (
         <div >
@@ -45,6 +55,7 @@ const Myorder = () => {
           <tbody>
             {orders.map((pd)=> {
               const {name, price, img, product, email} = pd;
+              
               return(
             <tr>
               <td>{name}</td>
@@ -58,7 +69,7 @@ const Myorder = () => {
               </div>}</td>
               
               <td>{email}</td>
-              <td>{<button onClick={()=>handleDeleteProduct(user._id)} type="button" className="btn btn-primary">DELETE</button>}</td>
+              <td>{<button onClick={()=>handleDeleteProduct(pd._id)} type="button" className="btn btn-primary">DELETE</button>}</td>
 
               
             </tr>

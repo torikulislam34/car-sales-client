@@ -3,6 +3,8 @@ import './App.css';
 import About from './components/About/About';
 import AddItem from "./components/AddItem/AddItem";
 import AddReview from "./components/AddReview/AddReview";
+import AddAdmin from "./components/Admin/AddAdmin/AddAdmin";
+import MakeAdmin from "./components/Admin/MakeAdmin/MakeAdmin";
 import Blog from './components/Blog/Blog';
 import BookCar from "./components/BookCar/BookCar";
 import Footer from './components/Footer/Footer';
@@ -61,6 +63,12 @@ function App() {
           </PrivateRoute>
           <Route path ='/addItem'>
             <AddItem></AddItem>
+          </Route>
+          <Route path ='/makeadmin'>
+            <MakeAdmin></MakeAdmin>
+          </Route>
+          <Route path ='/addadmin'>
+            <AddAdmin></AddAdmin>
           </Route>
           <Route path ='/addReview'>
             <AddReview></AddReview>

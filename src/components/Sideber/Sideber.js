@@ -10,7 +10,9 @@ const Sideber = () => {
                     <NavLink className='text-white text-decoration-none' to ='/addReview'>REVIEW</NavLink><br/>
                     <NavLink className='text-white text-decoration-none' to = '/pay'>PAY</NavLink><br/>
                    
-                    <NavLink className='text-white text-decoration-none' to ='/addItem'>AddItem</NavLink><br/>
+                    <NavLink className='text-white text-decoration-none' to ='/addItem'>AddITEM</NavLink><br/>
+                    <NavLink className='text-white text-decoration-none' to ='/makeadmin'>MAKE-ADMIN</NavLink><br/>
+                    <NavLink className='text-white text-decoration-none' to ='/addadmin'>Add-ADDMIN</NavLink><br/>
                     </div>
                         
                 </div>

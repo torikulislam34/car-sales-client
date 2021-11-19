@@ -24,7 +24,7 @@ const PlaceOrder = () => {
     // console.log(user);
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data =>{
-        console.log(data);
+        // console.log(data);
 
         axios.post(`https://damp-everglades-31322.herokuapp.com/addBook`, data)
         .then(res => {
@@ -41,12 +41,12 @@ const PlaceOrder = () => {
                 <h2 className='text-primary'> Place Order</h2>
                 
                     <form onSubmit={handleSubmit(onSubmit)} >
-                    <input defaultValue={user.displayName} className='add-input' {...register("name", { required: true, maxLength: 20 })} />
-                    <input defaultValue={matchService?.title} className='add-input' {...register("product", { required: true, maxLength: 20 })} />
+                    <input defaultValue={user.displayName} className='add-input' {...register("name", {  maxLength: 20 })} />
+                    <input defaultValue={matchService?.title} className='add-input' {...register("product", { maxLength: 20 })} />
                     <input defaultValue={user.email} className='add-input' {...register("email" )} />
                     <input defaultValue={matchService?.price} className='add-input' type="number" {...register("price" )} />
                     <input defaultValue={matchService?.img} className='add-input'  {...register("img" )} />
-                    <input className='add-input' {...register("state", { required: true, maxLength: 20 })} placeholder="address"/>
+                    <input className='add-input' {...register("state", { required: true, maxLength: 20 })} placeholder="Done"/>
                     <input className='button-reguler' type="submit" />
                 </form>
                

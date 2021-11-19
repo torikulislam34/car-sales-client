@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './perces.css';
 
 const Perces = (props) => {
-    const {title,img,price,dis,_id} = props.service; 
+    const {title,img,price,dis,} = props.service; 
     return (
         <div className='product'>
           <div>
