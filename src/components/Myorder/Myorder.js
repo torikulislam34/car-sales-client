@@ -7,13 +7,13 @@ const Myorder = () => {
   const [orders, setOrders] = useState([]);
 
   useEffect(()=>{
-    const url =`http://localhost:5000/addBook?email=${user.email}`
+    const url =`https://damp-everglades-31322.herokuapp.com/addBook?email=${user.email}`
    fetch(url)
    .then(res => res.json())
    .then(data => setOrders(data))
   }, [])
   const handleDeleteProduct = id => {
-   const url = `http://localhost:5000/addBook/${id}`;
+   const url = `http://localhost:5000/addBook?email/${id}`;
    fetch(url, {
      method: 'DELETE'
    })

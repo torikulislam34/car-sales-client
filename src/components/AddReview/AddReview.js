@@ -9,7 +9,7 @@ const AddReview = () => {
         const onSubmit = data =>{
             // console.log(data);
     
-            axios.post('http://localhost:5000/productsReview', data)
+            axios.post('https://damp-everglades-31322.herokuapp.com/productsReview', data)
             .then(res => {
                 // console.log(res);
                 if(res.data.insertedId){

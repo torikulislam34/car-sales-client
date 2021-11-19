@@ -26,7 +26,7 @@ const PlaceOrder = () => {
     const onSubmit = data =>{
         console.log(data);
 
-        axios.post(`http://localhost:5000/addBook`, data)
+        axios.post(`https://damp-everglades-31322.herokuapp.com/addBook`, data)
         .then(res => {
             // console.log(res);
             if(res.data.insertedId){
