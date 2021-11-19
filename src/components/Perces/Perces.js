@@ -1,12 +1,36 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './perces.css';
 
 const Perces = (props) => {
     const {title,img,price,dis,_id} = props.service; 
     return (
-        <div>
+        <div className='product'>
+          <div>
+                <img className='perces-img' src={img} alt="" />
+          </div>
+
+          <div>
+                <h4 className="product-name">{title}</h4>
+                <p> <span style={{color:'brown'}}>${price}</span>/Pice</p>
+                <p><span className='fw-bold '>Discription: </span> {dis}.</p>
+                <Link to={`/PlaceOrder`}>
+                    <button className = 'button-reguler'>Order Now</button> 
+                </Link>
+                {/* <p><small>only {stock} left in stock - order soon</small></p>
+                <Rating
+                    initialRating={star}
+                    emptySymbol="far fa-star icon-color"
+                    fullSymbol="fas fa-star icon-color"
+                    readonly></Rating>
+                <br />
+                <button
+                    onClick={() => props.handleAddToCart(props.product)}
+                    className="btn-regular"
+                ><FontAwesomeIcon icon={faShoppingCart} /> add to cart</button> */}
+            </div>
             
-        <div className="col">
+        {/* <div className="col">
           <div className="card h-100">
            <img src={img} className="card-img-top" alt="..."/>
            <div className="card-body">
@@ -20,7 +44,7 @@ const Perces = (props) => {
                 
            </div>
          </div>
-        </div>
+        </div> */}
     </div>
     );
 };

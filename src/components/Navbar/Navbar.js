@@ -33,12 +33,9 @@ const Navbar = () => {
                     <Link to ='/services'>PRODUCTS</Link>
                  </li>
                  <li className="nav-item">
-                    <Link to = 'additem'>ADDITEM</Link>
-                 </li>
-                 <li className="nav-item">
                  {
                     user?.email?
-                    <Link to = 'manageOrder'>DASBORD</Link>
+                    <Link to = '/manageOrder'>DASBORD</Link>
                     :''
                  }
                  </li>
@@ -47,6 +44,7 @@ const Navbar = () => {
                <div className='row w-25 mx-auto'>
                   <div className ='col'>
                   <span className='text-white pe-2'>Loged in As: {user?.displayName}</span>          
+                  <span className='text-white pe-2'> {user?.email}</span>          
                   </div>
                   <div className ='col'>
                   {

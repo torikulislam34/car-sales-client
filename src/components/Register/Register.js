@@ -4,7 +4,7 @@ import useAuth from '../../hooks/useAuth';
 import { Link } from 'react-router-dom';
 
 const Register = () => {
-    const {signInUsingGoogle, signInUsingEmailPassword,setUser} = useAuth();
+    const {signInUsingGoogle, signInUsingEmailPassword,setUser, updateName, user} = useAuth();
     const location = useLocation();
     const history = useHistory();
 
@@ -36,6 +36,7 @@ const Register = () => {
         signInUsingEmailPassword(email, password)
         .then((res) => {
             // Signed in 
+            updateName(name)
             const user = res.user;
             setUser(user)
             history.push(redirect_uri);
@@ -80,6 +81,9 @@ const Register = () => {
                 <input className= 'login-btn' type="submit" placeholder='Register' />
                 <br/>
             </form>
+            {user?.email && <div className="alert alert-primary" role="alert">
+            User Created Successfully
+            </div>}
             <p> -------or-------</p>
             <button onClick= {handleGoogleLogin} className= 'login-btn'>Log In With Google</button>
                   <p>Already Registerd?<Link to='login'>Please Login</Link></p>

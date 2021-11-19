@@ -1,3 +1,18 @@
-.perces{
+
+.product{
     display: flex;
+    border-bottom: 1px solid lightgray;
+    margin-right: 5px;
+    padding-bottom: 5px;
+}
+.product-name{
+    color: blue;
+    font-weight: 400;
+}
+.perces-img{
+    width: 400px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
 }

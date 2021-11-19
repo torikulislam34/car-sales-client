@@ -2,8 +2,9 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import About from './components/About/About';
 import AddItem from "./components/AddItem/AddItem";
+import AddReview from "./components/AddReview/AddReview";
 import Blog from './components/Blog/Blog';
-import Booktour from "./components/Booktour/Booktour";
+import BookCar from "./components/BookCar/BookCar";
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
@@ -11,6 +12,8 @@ import Login from './components/Login/Login';
 import ManageOrder from "./components/ManageOrder/ManageOrder";
 import Myorder from "./components/Myorder/Myorder";
 import NotFound from './components/NotFound/NotFound';
+import Pay from "./components/Pay/Pay";
+import PlaceOrder from "./components/PlaceOrder/PlaceOrder";
 import Register from "./components/Register/Register";
 import ServiceDetail from './components/ServiceDetail/ServiceDetail';
 import Services from './components/Services/Services';
@@ -45,16 +48,25 @@ function App() {
             <ServiceDetail></ServiceDetail>
           </PrivateRoute>
           <Route path ='/perces'>
-            <Booktour></Booktour>
+            <BookCar></BookCar>
           </Route>
           <Route path ='/myorder'>
             <Myorder></Myorder>
           </Route>
-          <PrivateRoute path ='/manageOrder'>
+          <Route path ='/manageOrder'>
             <ManageOrder></ManageOrder>
+          </Route>
+          <PrivateRoute path ='/placeOrder'>
+          <PlaceOrder></PlaceOrder>
           </PrivateRoute>
           <Route path ='/addItem'>
             <AddItem></AddItem>
+          </Route>
+          <Route path ='/addReview'>
+            <AddReview></AddReview>
+          </Route>
+          <Route path ='/pay'>
+            <Pay></Pay>
           </Route>
           <Route path ='/blog'>
             <Blog></Blog>
